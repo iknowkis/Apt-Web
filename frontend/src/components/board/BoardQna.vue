@@ -1,0 +1,20 @@
+<template>
+  <v-container>
+    <v-card>
+      <v-toolbar style="z-index: 100" dark>
+        <v-toolbar-title style="color: #ff9800; font-weight: bold">Q&A</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-btn icon color="primary" to="/"><v-icon>mdi-close</v-icon></v-btn>
+      </v-toolbar>
+      <router-view></router-view>
+    </v-card>
+  </v-container>
+</template>
+
+<script>
+export default {
+  name: "BoardQna",
+};
+</script>
+
+<style></style>
